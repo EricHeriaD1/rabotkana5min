@@ -57,19 +57,146 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp">
 
-            <ImageView
-                android:id="@+id/imageView5"
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                app:srcCompat="@drawable/banner" />
+                android:layout_marginStart="30dp">
 
-            <ImageView
-                android:id="@+id/imageView7"
+
+                <View
+                    android:id="@+id/view4"
+                    android:layout_width="270dp"
+                    android:layout_height="152dp"
+                    android:background="@drawable/shape_lastpic"
+                    android:queryBackground="@android:color/transparent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/view4"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/view4"
+                    app:srcCompat="@drawable/face2" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Чек-ап для \nмужчин"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/view4"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.158" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="9 исследований"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/view4"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.714" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="8000 рублей"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.879" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                app:srcCompat="@drawable/banner"/>
+                android:layout_marginStart="20dp">
+
+
+                <View
+                    android:id="@+id/view5"
+                    android:layout_width="270dp"
+                    android:layout_height="152dp"
+                    android:background="@drawable/shape_lastpic"
+                    android:queryBackground="@android:color/transparent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/view5"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/view5"
+                    app:srcCompat="@drawable/face2" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Чек-ап для \nмужчин"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/view5"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.158" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="9 исследований"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/view5"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.714" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="8000 рублей"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.879" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </HorizontalScrollView>
     <LinearLayout
@@ -103,9 +230,9 @@
             <Button
                 android:id="@+id/button3"
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:textAllCaps="false"
-                android:background= "#1A6FEE"
+                android:background= "@drawable/cornerblue"
                 android:layout_marginStart="15dp"
                 android:textColor="#fff"
                 android:text="Популярные" />
@@ -113,19 +240,19 @@
             <Button
                 android:id="@+id/button4"
                 android:layout_width="100dp"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:layout_marginStart="15dp"
                 android:textAllCaps="false"
                 android:textColor="#555555"
-                android:background="#F5F5F9"
+                android:background="@drawable/cornergray"
                 android:text="Covid" />
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="150dp"
                 android:layout_marginStart="15dp"
-                android:layout_height="wrap_content"
-                android:background="#F5F5F9"
+                android:layout_height="48dp"
+                android:background="@drawable/cornergray"
                 android:textColor="#555555"
                 android:textAllCaps="false"
                 android:text="Комплексный" />
