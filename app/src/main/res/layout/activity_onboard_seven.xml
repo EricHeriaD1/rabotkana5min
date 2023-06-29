@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:orientation="vertical">
 
     <LinearLayout
@@ -156,7 +157,7 @@
                     app:srcCompat="@drawable/face2" />
 
                 <TextView
-                    android:id="@+id/textView32"
+                    android:id="@+id/textView34"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -170,7 +171,7 @@
                     app:layout_constraintVertical_bias="0.158" />
 
                 <TextView
-                    android:id="@+id/textView33"
+                    android:id="@+id/textView35"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -183,7 +184,7 @@
                     app:layout_constraintVertical_bias="0.714" />
 
                 <TextView
-                    android:id="@+id/textView34"
+                    android:id="@+id/textView36"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -568,6 +569,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:background="#FFFFFF"
+        android:gravity="top"
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
